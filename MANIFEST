@@ -2,6 +2,7 @@
 .gitignore
 .perltidyrc
 .travis.yml
+Changes
 INSTALL.SKIP
 LICENSE
 MANIFEST
@@ -29,6 +30,10 @@ lib/DBIx/BeastForm/Role/DBIL.pm
 lib/DBIx/BeastForm/Role/Introspective.pm
 lib/DBIx/BeastForm/Table.pm
 lib/DBIx/BeastForm/Util.pm
+misc/Changes.deps
+misc/Changes.deps.all
+misc/Changes.deps.dev
+misc/Changes.deps.opt
 t/00-compile/lib_DBIx_BeastForm_Col_pm.t
 t/00-compile/lib_DBIx_BeastForm_Connected_pm.t
 t/00-compile/lib_DBIx_BeastForm_DBIL_Builder_Dynamic_pm.t
