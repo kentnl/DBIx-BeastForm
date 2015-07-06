@@ -91,6 +91,12 @@ Returns a hash of names to Driver objects
 
 James Laver <james.laver@gmail.com>
 
+=head1 CONTRIBUTOR
+
+=for stopwords Kent Fredric
+
+Kent Fredric <kentnl@cpan.org>
+
 =head1 COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2015 by James Laver on time generously donated by Anomalio.
