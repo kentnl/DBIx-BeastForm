@@ -1,0 +1,102 @@
+---
+abstract: 'Introspect a database and dynamically generate models'
+author:
+  - 'James Laver <james.laver@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  File::Spec: '0'
+  Test::More: '0.89'
+  Test::Most: '0'
+  perl: v5.10.0
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+  perl: v5.10.0
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.037, CPAN::Meta::Converter version 2.150005'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: DBIx-BeastForm
+provides:
+  DBIx::BeastForm:
+    file: lib/DBIx/BeastForm.pm
+    version: '0.000000'
+  DBIx::BeastForm::Col:
+    file: lib/DBIx/BeastForm/Col.pm
+    version: '0.000000'
+  DBIx::BeastForm::Connected:
+    file: lib/DBIx/BeastForm/Connected.pm
+    version: '0.000000'
+  DBIx::BeastForm::DB:
+    file: lib/DBIx/BeastForm/DB.pm
+    version: '0.000000'
+  DBIx::BeastForm::DB::Disconnected:
+    file: lib/DBIx/BeastForm/DB/Disconnected.pm
+    version: '0.000000'
+  DBIx::BeastForm::DBIL:
+    file: lib/DBIx/BeastForm/DBIL.pm
+    version: '0.000000'
+  DBIx::BeastForm::DBIL::Builder::Dynamic:
+    file: lib/DBIx/BeastForm/DBIL/Builder/Dynamic.pm
+    version: '0.000000'
+  DBIx::BeastForm::DBIL::Schema:
+    file: lib/DBIx/BeastForm/DBIL/Schema.pm
+    version: '0.000000'
+  DBIx::BeastForm::DBIL::Table:
+    file: lib/DBIx/BeastForm/DBIL/Table.pm
+    version: '0.000000'
+  DBIx::BeastForm::Driver:
+    file: lib/DBIx/BeastForm/Driver.pm
+    version: '0.000000'
+  DBIx::BeastForm::Introspective:
+    file: lib/DBIx/BeastForm/Introspective.pm
+    version: '0.000000'
+  DBIx::BeastForm::ResultSet:
+    file: lib/DBIx/BeastForm/ResultSet.pm
+    version: '0.000000'
+  DBIx::BeastForm::Role::Builder:
+    file: lib/DBIx/BeastForm/Role/Builder.pm
+    version: '0.000000'
+  DBIx::BeastForm::Role::Connected:
+    file: lib/DBIx/BeastForm/Role/Connected.pm
+    version: '0.000000'
+  DBIx::BeastForm::Role::DBIL:
+    file: lib/DBIx/BeastForm/Role/DBIL.pm
+    version: '0.000000'
+  DBIx::BeastForm::Role::Introspective:
+    file: lib/DBIx/BeastForm/Role/Introspective.pm
+    version: '0.000000'
+  DBIx::BeastForm::Table:
+    file: lib/DBIx/BeastForm/Table.pm
+    version: '0.000000'
+  DBIx::BeastForm::Util:
+    file: lib/DBIx/BeastForm/Util.pm
+    version: '0.000000'
+recommends:
+  Moo: '1.000008'
+requires:
+  Carp: '0'
+  DBI: '0'
+  DBIx::Connector: '0'
+  DBIx::Lite: '0'
+  DBIx::Lite::ResultSet: '0'
+  DBIx::Lite::Schema: '0'
+  DBIx::Lite::Schema::Table: '0'
+  Data::Dumper: '0'
+  Exporter: '0'
+  Moo: '0'
+  Moo::Role: '0'
+  Package::Variant: '0'
+  SQL::Translator: '0'
+  feature: '0'
+  overload: '0'
+  parent: '0'
+  perl: v5.10.0
+  strict: '0'
+  warnings: '0'
+resources:
+  bugtracker: https://github.com/kentnl/DBIx-BeastForm/issues
+  homepage: https://github.com/kentnl/DBIx-BeastForm
+  repository: https://github.com/kentnl/DBIx-BeastForm.git
+version: '0.000000'
