@@ -1,4 +1,11 @@
+use strict;
+use warnings;
+
 package DBIx::BeastForm::DBIL::Builder::Dynamic;
+
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Moo;
 use Data::Dumper 'Dumper';
@@ -90,7 +97,7 @@ DBIx::BeastForm::DBIL::Builder::Dynamic
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

@@ -1,4 +1,11 @@
+use strict;
+use warnings;
+
 package DBIx::BeastForm::DBIL;
+
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Moo;
 with 'DBIx::BeastForm::Role::DBIL';
@@ -17,7 +24,7 @@ DBIx::BeastForm::DBIL
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

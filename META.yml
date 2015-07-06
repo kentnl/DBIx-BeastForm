@@ -21,58 +21,58 @@ name: DBIx-BeastForm
 provides:
   DBIx::BeastForm:
     file: lib/DBIx/BeastForm.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Col:
     file: lib/DBIx/BeastForm/Col.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Connected:
     file: lib/DBIx/BeastForm/Connected.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::DB:
     file: lib/DBIx/BeastForm/DB.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::DB::Disconnected:
     file: lib/DBIx/BeastForm/DB/Disconnected.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::DBIL:
     file: lib/DBIx/BeastForm/DBIL.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::DBIL::Builder::Dynamic:
     file: lib/DBIx/BeastForm/DBIL/Builder/Dynamic.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::DBIL::Schema:
     file: lib/DBIx/BeastForm/DBIL/Schema.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::DBIL::Table:
     file: lib/DBIx/BeastForm/DBIL/Table.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Driver:
     file: lib/DBIx/BeastForm/Driver.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Introspective:
     file: lib/DBIx/BeastForm/Introspective.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::ResultSet:
     file: lib/DBIx/BeastForm/ResultSet.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Role::Builder:
     file: lib/DBIx/BeastForm/Role/Builder.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Role::Connected:
     file: lib/DBIx/BeastForm/Role/Connected.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Role::DBIL:
     file: lib/DBIx/BeastForm/Role/DBIL.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Role::Introspective:
     file: lib/DBIx/BeastForm/Role/Introspective.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Table:
     file: lib/DBIx/BeastForm/Table.pm
-    version: '0.000000'
+    version: '0.000001'
   DBIx::BeastForm::Util:
     file: lib/DBIx/BeastForm/Util.pm
-    version: '0.000000'
+    version: '0.000001'
 recommends:
   Moo: '1.000008'
 requires:
@@ -99,4 +99,4 @@ resources:
   bugtracker: https://github.com/kentnl/DBIx-BeastForm/issues
   homepage: https://github.com/kentnl/DBIx-BeastForm
   repository: https://github.com/kentnl/DBIx-BeastForm.git
-version: '0.000000'
+version: '0.000001'

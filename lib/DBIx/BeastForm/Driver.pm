@@ -1,4 +1,11 @@
+use strict;
+use warnings;
+
 package DBIx::BeastForm::Driver;
+
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Moo;
 use Carp qw(croak);
@@ -57,7 +64,7 @@ DBIx::BeastForm::Driver
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 
