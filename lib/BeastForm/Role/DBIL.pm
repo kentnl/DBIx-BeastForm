@@ -10,8 +10,8 @@ our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Moo::Role;
 use DBIx::Lite;
-use DBIx::BeastForm::DBIL::Schema;
-use DBIx::BeastForm::DBIL::Builder::Dynamic;
+use BeastForm::DBIL::Schema;
+use BeastForm::DBIL::Builder::Dynamic;
 # use DBIx::BeastForm::DBIL::Builder::Static;
 
 with 'DBIx::BeastForm::Role::Introspective';

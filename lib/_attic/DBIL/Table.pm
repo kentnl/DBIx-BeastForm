@@ -8,7 +8,7 @@ our $VERSION = '0.000001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
-use DBIx::BeastForm::Util qw(modulify);
+use BeastForm::Util qw(modulify);
 
 use Package::Variant
   importing => [ 'Moo' ],
