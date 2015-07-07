@@ -20,7 +20,7 @@
          },
          "requires" : {
             "ExtUtils::MakeMaker" : "0",
-            "perl" : "v5.10.0"
+            "perl" : "5.006"
          }
       },
       "develop" : {
@@ -117,9 +117,8 @@
             "Moo::Role" : "0",
             "Package::Variant" : "0",
             "SQL::Translator" : "0",
-            "feature" : "0",
             "parent" : "0",
-            "perl" : "v5.10.0",
+            "perl" : "5.006",
             "strict" : "0",
             "warnings" : "0"
          }
@@ -135,7 +134,7 @@
             "File::Spec" : "0",
             "Test::More" : "0.89",
             "Test::Most" : "0",
-            "perl" : "v5.10.0"
+            "perl" : "5.006"
          }
       }
    },

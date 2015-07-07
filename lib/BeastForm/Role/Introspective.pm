@@ -1,3 +1,7 @@
+use 5.006;    # our
+use strict;
+use warnings;
+
 use strict;
 use warnings;
 

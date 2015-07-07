@@ -1,3 +1,7 @@
+use 5.006;    # our
+use strict;
+use warnings;
+
 package DBIx::BeastForm::DB;
 
 our $VERSION = '0.000001';
@@ -10,7 +14,6 @@ use BeastForm::Driver;
 use BeastForm::Table;
 use BeastForm::Util qw(map_sth);
 use Carp qw(croak);
-use feature ':5.10';
 
 # ABSTRACT: Logical representation of a database
 
