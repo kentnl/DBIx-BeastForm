@@ -9,7 +9,7 @@ our $VERSION = '0.000001';
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Moo;
-use Beastform::Proc;
+use BeastForm::Proc;
 
 with 'BeastForm::Role::Process';
 
