@@ -2,7 +2,7 @@ use 5.006;    # our
 use strict;
 use warnings;
 
-package DBIx::BeastForm::DB;
+package BeastForm::DB;
 
 our $VERSION = '0.000001';
 
@@ -95,7 +95,7 @@ __END__
 
 =head1 NAME
 
-DBIx::BeastForm::DB - Logical representation of a database
+BeastForm::DB - Logical representation of a database
 
 =head1 VERSION
 

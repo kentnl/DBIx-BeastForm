@@ -2,7 +2,7 @@ use 5.006;    # our
 use strict;
 use warnings;
 
-package DBIx::BeastForm::Util;
+package BeastForm::Util;
 
 our $VERSION = '0.000001';
 
@@ -49,7 +49,7 @@ __END__
 
 =head1 NAME
 
-DBIx::BeastForm::Util
+BeastForm::Util
 
 =head1 VERSION
 

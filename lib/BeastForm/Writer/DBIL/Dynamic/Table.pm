@@ -2,7 +2,7 @@ use 5.006;    # our
 use strict;
 use warnings;
 
-package DBIx::BeastForm::Writer::DBIL::Dynamic::Table;
+package BeastForm::Writer::DBIL::Dynamic::Table;
 
 our $VERSION = '0.000001';
 
@@ -54,7 +54,7 @@ __END__
 
 =head1 NAME
 
-DBIx::BeastForm::Writer::DBIL::Dynamic::Table - Configures a table in the DBIx::Lite Schema
+BeastForm::Writer::DBIL::Dynamic::Table - Configures a table in the DBIx::Lite Schema
 
 =head1 VERSION
 

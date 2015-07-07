@@ -104,7 +104,10 @@
             "DBI" : "0",
             "DBIx::BeastForm::DBIL::Builder::Dynamic" : "0",
             "DBIx::BeastForm::DBIL::Schema" : "0",
+            "DBIx::BeastForm::Role::Connected" : "0",
+            "DBIx::BeastForm::Role::Introspective" : "0",
             "DBIx::BeastForm::Role::Writer::Table" : "0",
+            "DBIx::BeastForm::Util" : "0",
             "DBIx::Connector" : "0",
             "DBIx::Lite" : "0",
             "DBIx::Lite::Schema" : "0",
@@ -148,6 +151,10 @@
       },
       "BeastForm::Constraint::Check" : {
          "file" : "lib/BeastForm/Check.pm",
+         "version" : "0.000001"
+      },
+      "BeastForm::DB" : {
+         "file" : "lib/BeastForm/DB.pm",
          "version" : "0.000001"
       },
       "BeastForm::Driver" : {
@@ -202,6 +209,10 @@
          "file" : "lib/BeastForm/Reader/SQLT/Table.pm",
          "version" : "0.000001"
       },
+      "BeastForm::Reader::SQLT::Trigger" : {
+         "file" : "lib/BeastForm/Reader/SQLT/Trigger.pm",
+         "version" : "0.000001"
+      },
       "BeastForm::Reader::SQLT::View" : {
          "file" : "lib/BeastForm/Reader/SQLT/View.pm",
          "version" : "0.000001"
@@ -210,8 +221,20 @@
          "file" : "lib/BeastForm/Role/Awesome.pm",
          "version" : "0.000001"
       },
+      "BeastForm::Role::Connected" : {
+         "file" : "lib/BeastForm/Role/Connected.pm",
+         "version" : "0.000001"
+      },
       "BeastForm::Role::Constraint" : {
          "file" : "lib/BeastForm/Role/Constraint.pm",
+         "version" : "0.000001"
+      },
+      "BeastForm::Role::DBIL" : {
+         "file" : "lib/BeastForm/Role/DBIL.pm",
+         "version" : "0.000001"
+      },
+      "BeastForm::Role::Introspective" : {
+         "file" : "lib/BeastForm/Role/Introspective.pm",
          "version" : "0.000001"
       },
       "BeastForm::Role::Process" : {
@@ -230,6 +253,10 @@
          "file" : "lib/BeastForm/Trigger.pm",
          "version" : "0.000001"
       },
+      "BeastForm::Util" : {
+         "file" : "lib/BeastForm/Util.pm",
+         "version" : "0.000001"
+      },
       "BeastForm::View" : {
          "file" : "lib/BeastForm/View.pm",
          "version" : "0.000001"
@@ -238,40 +265,16 @@
          "file" : "lib/BeastForm/Writer/DBIL/Dynamic/Schema.pm",
          "version" : "0.000001"
       },
+      "BeastForm::Writer::DBIL::Dynamic::Table" : {
+         "file" : "lib/BeastForm/Writer/DBIL/Dynamic/Table.pm",
+         "version" : "0.000001"
+      },
       "DBIx::BeastForm::Col" : {
          "file" : "lib/_attic/Col.pm",
          "version" : "0.000001"
       },
-      "DBIx::BeastForm::DB" : {
-         "file" : "lib/BeastForm/DB.pm",
-         "version" : "0.000001"
-      },
       "DBIx::BeastForm::DBIL::Table" : {
          "file" : "lib/_attic/DBIL/Table.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Reader::SQLT::Trigger" : {
-         "file" : "lib/BeastForm/Reader/SQLT/Trigger.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Role::Connected" : {
-         "file" : "lib/BeastForm/Role/Connected.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Role::DBIL" : {
-         "file" : "lib/BeastForm/Role/DBIL.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Role::Introspective" : {
-         "file" : "lib/BeastForm/Role/Introspective.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Util" : {
-         "file" : "lib/BeastForm/Util.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Writer::DBIL::Dynamic::Table" : {
-         "file" : "lib/BeastForm/Writer/DBIL/Dynamic/Table.pm",
          "version" : "0.000001"
       }
    },

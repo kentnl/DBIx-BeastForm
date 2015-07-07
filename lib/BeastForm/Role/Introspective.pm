@@ -2,10 +2,7 @@ use 5.006;    # our
 use strict;
 use warnings;
 
-use strict;
-use warnings;
-
-package DBIx::BeastForm::Role::Introspective;
+package BeastForm::Role::Introspective;
 
 our $VERSION = '0.000001';
 
@@ -35,7 +32,7 @@ __END__
 
 =head1 NAME
 
-DBIx::BeastForm::Role::Introspective
+BeastForm::Role::Introspective
 
 =head1 VERSION
 
