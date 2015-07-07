@@ -11,7 +11,7 @@ our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 use Moo::Role;
 use SQL::Translator;
 
-with 'DBIx::BeastForm::Role::Connected';
+with 'BeastForm::Role::Connected';
 
 has schema => ( is => 'lazy' );
 

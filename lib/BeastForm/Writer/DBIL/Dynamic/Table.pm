@@ -12,7 +12,7 @@ our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Moo;
 
-with 'DBIx::BeastForm::Role::Writer::Table';
+with 'BeastForm::Role::Writer::Table';
 
 has table => ( is => 'lazy' );
 

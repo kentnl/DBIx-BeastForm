@@ -102,11 +102,9 @@
             "BeastForm::DBIL::Builder::Dynamic" : "0",
             "BeastForm::DBIL::Schema" : "0",
             "BeastForm::Role::Writer::Schema" : "0",
+            "BeastForm::Role::Writer::Table" : "0",
             "Carp" : "0",
             "DBI" : "0",
-            "DBIx::BeastForm::Role::Connected" : "0",
-            "DBIx::BeastForm::Role::Introspective" : "0",
-            "DBIx::BeastForm::Role::Writer::Table" : "0",
             "DBIx::Connector" : "0",
             "DBIx::Lite" : "0",
             "DBIx::Lite::Schema" : "0",
@@ -148,12 +146,20 @@
          "file" : "lib/_attic/Awesome.pm",
          "version" : "0.000001"
       },
+      "BeastForm::Col" : {
+         "file" : "lib/_attic/Col.pm",
+         "version" : "0.000001"
+      },
       "BeastForm::Constraint::Check" : {
          "file" : "lib/BeastForm/Check.pm",
          "version" : "0.000001"
       },
       "BeastForm::DB" : {
          "file" : "lib/BeastForm/DB.pm",
+         "version" : "0.000001"
+      },
+      "BeastForm::DBIL::Table" : {
+         "file" : "lib/_attic/DBIL/Table.pm",
          "version" : "0.000001"
       },
       "BeastForm::Driver" : {
@@ -266,14 +272,6 @@
       },
       "BeastForm::Writer::DBIL::Dynamic::Table" : {
          "file" : "lib/BeastForm/Writer/DBIL/Dynamic/Table.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Col" : {
-         "file" : "lib/_attic/Col.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::DBIL::Table" : {
-         "file" : "lib/_attic/DBIL/Table.pm",
          "version" : "0.000001"
       }
    },

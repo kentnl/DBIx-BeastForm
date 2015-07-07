@@ -2,7 +2,7 @@ use 5.006;    # our
 use strict;
 use warnings;
 
-package DBIx::BeastForm::DBIL::Table;
+package BeastForm::DBIL::Table;
 
 our $VERSION = '0.000001';
 
@@ -35,7 +35,7 @@ __END__
 
 =head1 NAME
 
-DBIx::BeastForm::DBIL::Table
+BeastForm::DBIL::Table
 
 =head1 VERSION
 
