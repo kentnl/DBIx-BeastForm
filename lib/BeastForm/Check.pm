@@ -2,7 +2,7 @@ use 5.006;    # our
 use strict;
 use warnings;
 
-package BeastForm::Constraint::Check;
+package BeastForm::Check;
 
 our $VERSION = '0.000001';
 
@@ -23,7 +23,7 @@ __END__
 
 =head1 NAME
 
-BeastForm::Constraint::Check
+BeastForm::Check
 
 =head1 VERSION
 

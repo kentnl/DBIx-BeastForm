@@ -25,11 +25,11 @@ provides:
   BeastForm::Awesome:
     file: lib/_attic/Awesome.pm
     version: '0.000001'
+  BeastForm::Check:
+    file: lib/BeastForm/Check.pm
+    version: '0.000001'
   BeastForm::Col:
     file: lib/_attic/Col.pm
-    version: '0.000001'
-  BeastForm::Constraint::Check:
-    file: lib/BeastForm/Check.pm
     version: '0.000001'
   BeastForm::DB:
     file: lib/BeastForm/DB.pm
