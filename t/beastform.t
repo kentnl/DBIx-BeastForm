@@ -1,8 +1,11 @@
 use strict;
 use warnings;
 use Test::More;
-use DBIx::BeastForm;
+use BeastForm;
 
-ok( scalar DBIx::BeastForm->find_drivers, "There is at least one DBD installed" );
-
+ok( scalar BeastForm->find_drivers, "There is at least one DBD installed" );
+TODO: {
+  local $TODO = "Write more tests";
+  fail("Haven't written tests");
+}
 done_testing;

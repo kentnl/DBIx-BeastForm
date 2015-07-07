@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "DBIx-BeastForm",
+   "name" : "BeastForm",
    "prereqs" : {
       "configure" : {
          "recommends" : {
@@ -98,21 +98,26 @@
             "Moo" : "1.000008"
          },
          "requires" : {
+            "BeastForm::Constraint" : "0",
+            "BeastForm::Role::Writer::Schema" : "0",
+            "Beastform::Proc" : "0",
             "Carp" : "0",
             "DBI" : "0",
+            "DBIx::BeastForm::DBIL::Builder::Dynamic" : "0",
+            "DBIx::BeastForm::DBIL::Schema" : "0",
+            "DBIx::BeastForm::Role::Writer::Table" : "0",
             "DBIx::Connector" : "0",
             "DBIx::Lite" : "0",
-            "DBIx::Lite::ResultSet" : "0",
             "DBIx::Lite::Schema" : "0",
-            "DBIx::Lite::Schema::Table" : "0",
             "Data::Dumper" : "0",
             "Exporter" : "0",
+            "Hash::Ordered" : "0",
+            "List::Util" : "0",
             "Moo" : "0",
             "Moo::Role" : "0",
             "Package::Variant" : "0",
             "SQL::Translator" : "0",
             "feature" : "0",
-            "overload" : "0",
             "parent" : "0",
             "perl" : "v5.10.0",
             "strict" : "0",
@@ -135,77 +140,141 @@
       }
    },
    "provides" : {
-      "DBIx::BeastForm" : {
-         "file" : "lib/DBIx/BeastForm.pm",
-         "version" : "0.000001"
+      "BeastForm" : {
+         "file" : "lib/BeastForm.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Awesome" : {
+         "file" : "lib/_attic/Awesome.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Constraint::Check" : {
+         "file" : "lib/BeastForm/Check.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Driver" : {
+         "file" : "lib/BeastForm/Driver.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::FK" : {
+         "file" : "lib/BeastForm/FK.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Field" : {
+         "file" : "lib/BeastForm/Field.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Fieldset" : {
+         "file" : "lib/BeastForm/Fieldset.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Key" : {
+         "file" : "lib/BeastForm/Key.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Proc" : {
+         "file" : "lib/BeastForm/Proc.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Reader::SQLT" : {
+         "file" : "lib/BeastForm/Reader/SQLT.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Reader::SQLT::Constraint" : {
+         "file" : "lib/BeastForm/Reader/SQLT/Constraint.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Reader::SQLT::Field" : {
+         "file" : "lib/BeastForm/Reader/SQLT/Field.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Reader::SQLT::Index" : {
+         "file" : "lib/BeastForm/Reader/SQLT/Index.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Reader::SQLT::Proc" : {
+         "file" : "lib/BeastForm/Reader/SQLT/Proc.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Reader::SQLT::Schema" : {
+         "file" : "lib/BeastForm/Reader/SQLT/Schema.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Reader::SQLT::Table" : {
+         "file" : "lib/BeastForm/Reader/SQLT/Table.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Reader::SQLT::View" : {
+         "file" : "lib/BeastForm/Reader/SQLT/View.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Role::Awesome" : {
+         "file" : "lib/BeastForm/Role/Awesome.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Role::Constraint" : {
+         "file" : "lib/BeastForm/Role/Constraint.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Role::Process" : {
+         "file" : "lib/BeastForm/Role/Process.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Schema" : {
+         "file" : "lib/BeastForm/Schema.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Table" : {
+         "file" : "lib/BeastForm/Table.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Trigger" : {
+         "file" : "lib/BeastForm/Trigger.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::View" : {
+         "file" : "lib/BeastForm/View.pm",
+         "version" : "0.000000"
+      },
+      "BeastForm::Writer::DBIL::Dynamic::Schema" : {
+         "file" : "lib/BeastForm/Writer/DBIL/Dynamic/Schema.pm",
+         "version" : "0.000000"
       },
       "DBIx::BeastForm::Col" : {
-         "file" : "lib/DBIx/BeastForm/Col.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Connected" : {
-         "file" : "lib/DBIx/BeastForm/Connected.pm",
-         "version" : "0.000001"
+         "file" : "lib/_attic/Col.pm",
+         "version" : "0.000000"
       },
       "DBIx::BeastForm::DB" : {
-         "file" : "lib/DBIx/BeastForm/DB.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::DB::Disconnected" : {
-         "file" : "lib/DBIx/BeastForm/DB/Disconnected.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::DBIL" : {
-         "file" : "lib/DBIx/BeastForm/DBIL.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::DBIL::Builder::Dynamic" : {
-         "file" : "lib/DBIx/BeastForm/DBIL/Builder/Dynamic.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::DBIL::Schema" : {
-         "file" : "lib/DBIx/BeastForm/DBIL/Schema.pm",
-         "version" : "0.000001"
+         "file" : "lib/BeastForm/DB.pm",
+         "version" : "0.000000"
       },
       "DBIx::BeastForm::DBIL::Table" : {
-         "file" : "lib/DBIx/BeastForm/DBIL/Table.pm",
-         "version" : "0.000001"
+         "file" : "lib/_attic/DBIL/Table.pm",
+         "version" : "0.000000"
       },
-      "DBIx::BeastForm::Driver" : {
-         "file" : "lib/DBIx/BeastForm/Driver.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Introspective" : {
-         "file" : "lib/DBIx/BeastForm/Introspective.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::ResultSet" : {
-         "file" : "lib/DBIx/BeastForm/ResultSet.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Role::Builder" : {
-         "file" : "lib/DBIx/BeastForm/Role/Builder.pm",
-         "version" : "0.000001"
+      "DBIx::BeastForm::Reader::SQLT::Trigger" : {
+         "file" : "lib/BeastForm/Reader/SQLT/Trigger.pm",
+         "version" : "0.000000"
       },
       "DBIx::BeastForm::Role::Connected" : {
-         "file" : "lib/DBIx/BeastForm/Role/Connected.pm",
-         "version" : "0.000001"
+         "file" : "lib/BeastForm/Role/Connected.pm",
+         "version" : "0.000000"
       },
       "DBIx::BeastForm::Role::DBIL" : {
-         "file" : "lib/DBIx/BeastForm/Role/DBIL.pm",
-         "version" : "0.000001"
+         "file" : "lib/BeastForm/Role/DBIL.pm",
+         "version" : "0.000000"
       },
       "DBIx::BeastForm::Role::Introspective" : {
-         "file" : "lib/DBIx/BeastForm/Role/Introspective.pm",
-         "version" : "0.000001"
-      },
-      "DBIx::BeastForm::Table" : {
-         "file" : "lib/DBIx/BeastForm/Table.pm",
-         "version" : "0.000001"
+         "file" : "lib/BeastForm/Role/Introspective.pm",
+         "version" : "0.000000"
       },
       "DBIx::BeastForm::Util" : {
-         "file" : "lib/DBIx/BeastForm/Util.pm",
-         "version" : "0.000001"
+         "file" : "lib/BeastForm/Util.pm",
+         "version" : "0.000000"
+      },
+      "DBIx::BeastForm::Writer::DBIL::Dynamic::Table" : {
+         "file" : "lib/BeastForm/Writer/DBIL/Dynamic/Table.pm",
+         "version" : "0.000000"
       }
    },
    "release_status" : "stable",
@@ -220,7 +289,7 @@
          "web" : "https://github.com/kentnl/DBIx-BeastForm"
       }
    },
-   "version" : "0.000001",
+   "version" : "0.000000",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.022000"
@@ -412,24 +481,40 @@
             "config" : {
                "Dist::Zilla::Plugin::Test::Compile::PerFile" : {
                   "file" : [
-                     "lib/DBIx/BeastForm.pm",
-                     "lib/DBIx/BeastForm/Col.pm",
-                     "lib/DBIx/BeastForm/Connected.pm",
-                     "lib/DBIx/BeastForm/DB.pm",
-                     "lib/DBIx/BeastForm/DB/Disconnected.pm",
-                     "lib/DBIx/BeastForm/DBIL.pm",
-                     "lib/DBIx/BeastForm/DBIL/Builder/Dynamic.pm",
-                     "lib/DBIx/BeastForm/DBIL/Schema.pm",
-                     "lib/DBIx/BeastForm/DBIL/Table.pm",
-                     "lib/DBIx/BeastForm/Driver.pm",
-                     "lib/DBIx/BeastForm/Introspective.pm",
-                     "lib/DBIx/BeastForm/ResultSet.pm",
-                     "lib/DBIx/BeastForm/Role/Builder.pm",
-                     "lib/DBIx/BeastForm/Role/Connected.pm",
-                     "lib/DBIx/BeastForm/Role/DBIL.pm",
-                     "lib/DBIx/BeastForm/Role/Introspective.pm",
-                     "lib/DBIx/BeastForm/Table.pm",
-                     "lib/DBIx/BeastForm/Util.pm"
+                     "lib/BeastForm.pm",
+                     "lib/BeastForm/Check.pm",
+                     "lib/BeastForm/DB.pm",
+                     "lib/BeastForm/Driver.pm",
+                     "lib/BeastForm/FK.pm",
+                     "lib/BeastForm/Field.pm",
+                     "lib/BeastForm/Fieldset.pm",
+                     "lib/BeastForm/Key.pm",
+                     "lib/BeastForm/Proc.pm",
+                     "lib/BeastForm/Reader/SQLT.pm",
+                     "lib/BeastForm/Reader/SQLT/Constraint.pm",
+                     "lib/BeastForm/Reader/SQLT/Field.pm",
+                     "lib/BeastForm/Reader/SQLT/Index.pm",
+                     "lib/BeastForm/Reader/SQLT/Proc.pm",
+                     "lib/BeastForm/Reader/SQLT/Schema.pm",
+                     "lib/BeastForm/Reader/SQLT/Table.pm",
+                     "lib/BeastForm/Reader/SQLT/Trigger.pm",
+                     "lib/BeastForm/Reader/SQLT/View.pm",
+                     "lib/BeastForm/Role/Awesome.pm",
+                     "lib/BeastForm/Role/Connected.pm",
+                     "lib/BeastForm/Role/Constraint.pm",
+                     "lib/BeastForm/Role/DBIL.pm",
+                     "lib/BeastForm/Role/Introspective.pm",
+                     "lib/BeastForm/Role/Process.pm",
+                     "lib/BeastForm/Schema.pm",
+                     "lib/BeastForm/Table.pm",
+                     "lib/BeastForm/Trigger.pm",
+                     "lib/BeastForm/Util.pm",
+                     "lib/BeastForm/View.pm",
+                     "lib/BeastForm/Writer/DBIL/Dynamic/Schema.pm",
+                     "lib/BeastForm/Writer/DBIL/Dynamic/Table.pm",
+                     "lib/_attic/Awesome.pm",
+                     "lib/_attic/Col.pm",
+                     "lib/_attic/DBIL/Table.pm"
                   ],
                   "path_translator" : "base64_filter",
                   "prefix" : "t/00-compile",
@@ -683,7 +768,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : 0,
-                  "tag" : "0.000001-source",
+                  "tag" : "0.000000-source",
                   "tag_format" : "%v-source",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -759,7 +844,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : "releases",
                   "signed" : 0,
-                  "tag" : "0.000001",
+                  "tag" : "0.000000",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"

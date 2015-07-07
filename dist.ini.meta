@@ -1,5 +1,5 @@
 ; vim: syntax=dosini
-name    = DBIx-BeastForm
+name    = BeastForm
 author  = James Laver <james.laver@gmail.com>
 license = Perl_5
 copyright_holder = James Laver on time generously donated by Anomalio
