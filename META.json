@@ -142,139 +142,139 @@
    "provides" : {
       "BeastForm" : {
          "file" : "lib/BeastForm.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Awesome" : {
          "file" : "lib/_attic/Awesome.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Constraint::Check" : {
          "file" : "lib/BeastForm/Check.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Driver" : {
          "file" : "lib/BeastForm/Driver.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::FK" : {
          "file" : "lib/BeastForm/FK.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Field" : {
          "file" : "lib/BeastForm/Field.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Fieldset" : {
          "file" : "lib/BeastForm/Fieldset.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Key" : {
          "file" : "lib/BeastForm/Key.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Proc" : {
          "file" : "lib/BeastForm/Proc.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT" : {
          "file" : "lib/BeastForm/Reader/SQLT.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::Constraint" : {
          "file" : "lib/BeastForm/Reader/SQLT/Constraint.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::Field" : {
          "file" : "lib/BeastForm/Reader/SQLT/Field.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::Index" : {
          "file" : "lib/BeastForm/Reader/SQLT/Index.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::Proc" : {
          "file" : "lib/BeastForm/Reader/SQLT/Proc.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::Schema" : {
          "file" : "lib/BeastForm/Reader/SQLT/Schema.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::Table" : {
          "file" : "lib/BeastForm/Reader/SQLT/Table.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::View" : {
          "file" : "lib/BeastForm/Reader/SQLT/View.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Role::Awesome" : {
          "file" : "lib/BeastForm/Role/Awesome.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Role::Constraint" : {
          "file" : "lib/BeastForm/Role/Constraint.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Role::Process" : {
          "file" : "lib/BeastForm/Role/Process.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Schema" : {
          "file" : "lib/BeastForm/Schema.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Table" : {
          "file" : "lib/BeastForm/Table.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Trigger" : {
          "file" : "lib/BeastForm/Trigger.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::View" : {
          "file" : "lib/BeastForm/View.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "BeastForm::Writer::DBIL::Dynamic::Schema" : {
          "file" : "lib/BeastForm/Writer/DBIL/Dynamic/Schema.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "DBIx::BeastForm::Col" : {
          "file" : "lib/_attic/Col.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "DBIx::BeastForm::DB" : {
          "file" : "lib/BeastForm/DB.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "DBIx::BeastForm::DBIL::Table" : {
          "file" : "lib/_attic/DBIL/Table.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "DBIx::BeastForm::Reader::SQLT::Trigger" : {
          "file" : "lib/BeastForm/Reader/SQLT/Trigger.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "DBIx::BeastForm::Role::Connected" : {
          "file" : "lib/BeastForm/Role/Connected.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "DBIx::BeastForm::Role::DBIL" : {
          "file" : "lib/BeastForm/Role/DBIL.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "DBIx::BeastForm::Role::Introspective" : {
          "file" : "lib/BeastForm/Role/Introspective.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "DBIx::BeastForm::Util" : {
          "file" : "lib/BeastForm/Util.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       },
       "DBIx::BeastForm::Writer::DBIL::Dynamic::Table" : {
          "file" : "lib/BeastForm/Writer/DBIL/Dynamic/Table.pm",
-         "version" : "0.000000"
+         "version" : "0.000001"
       }
    },
    "release_status" : "stable",
@@ -289,7 +289,7 @@
          "web" : "https://github.com/kentnl/DBIx-BeastForm"
       }
    },
-   "version" : "0.000000",
+   "version" : "0.000001",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.022000"
@@ -768,7 +768,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : 0,
-                  "tag" : "0.000000-source",
+                  "tag" : "0.000001-source",
                   "tag_format" : "%v-source",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -844,7 +844,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : "releases",
                   "signed" : 0,
-                  "tag" : "0.000000",
+                  "tag" : "0.000001",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"

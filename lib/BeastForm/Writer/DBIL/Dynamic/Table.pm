@@ -1,5 +1,9 @@
 package DBIx::BeastForm::Writer::DBIL::Dynamic::Table;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 # ABSTRACT: Configures a table in the DBIx::Lite Schema
 
 use Moo;
@@ -50,7 +54,7 @@ DBIx::BeastForm::Writer::DBIL::Dynamic::Table - Configures a table in the DBIx::
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

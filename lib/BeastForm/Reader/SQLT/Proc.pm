@@ -1,5 +1,9 @@
 package BeastForm::Reader::SQLT::Proc;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 use Moo;
 use Beastform::Proc;
 
@@ -32,7 +36,7 @@ BeastForm::Reader::SQLT::Proc
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

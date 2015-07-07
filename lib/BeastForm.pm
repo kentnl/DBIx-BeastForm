@@ -1,5 +1,9 @@
 package BeastForm;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 use Moo;
 use DBI;
 use List::Util qw(first);
@@ -129,7 +133,7 @@ BeastForm - Introspect a database and dynamically generate models
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 SYNOPSIS
 

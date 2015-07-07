@@ -1,5 +1,9 @@
 package BeastForm::Reader::SQLT::Index;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 use Moo;
 use BeastForm::Field;
 use Data::Dumper 'Dumper';
@@ -39,7 +43,7 @@ BeastForm::Reader::SQLT::Index
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

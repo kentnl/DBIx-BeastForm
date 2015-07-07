@@ -1,5 +1,9 @@
 package BeastForm::Writer::DBIL::Dynamic::Schema;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 use Moo;
 use DBIx::Lite::Schema;
 use BeastForm::Writer::DBIL::Dynamic::Table;
@@ -54,7 +58,7 @@ BeastForm::Writer::DBIL::Dynamic::Schema
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

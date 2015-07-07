@@ -1,5 +1,9 @@
 package BeastForm::Reader::SQLT::Constraint;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 use Moo;
 use BeastForm::Key;
 use BeastForm::Check;
@@ -81,7 +85,7 @@ BeastForm::Reader::SQLT::Constraint
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

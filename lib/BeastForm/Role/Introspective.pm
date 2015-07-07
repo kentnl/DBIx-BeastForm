@@ -3,7 +3,7 @@ use warnings;
 
 package DBIx::BeastForm::Role::Introspective;
 
-our $VERSION = '0.000000';
+our $VERSION = '0.000001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
@@ -35,7 +35,7 @@ DBIx::BeastForm::Role::Introspective
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

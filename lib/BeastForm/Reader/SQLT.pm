@@ -1,5 +1,9 @@
 package BeastForm::Reader::SQLT;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 # ABSTRACT: Uses L<SQL::Translator> to introspect a database
 
 use Moo;
@@ -40,7 +44,7 @@ BeastForm::Reader::SQLT - Uses L<SQL::Translator> to introspect a database
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

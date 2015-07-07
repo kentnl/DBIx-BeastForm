@@ -1,5 +1,9 @@
 package BeastForm::Reader::SQLT::Schema;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 # ABSTRACT: Creates a SQL::Translator and reads from its schema
 
 use Moo;
@@ -98,7 +102,7 @@ BeastForm::Reader::SQLT::Schema - Creates a SQL::Translator and reads from its s
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

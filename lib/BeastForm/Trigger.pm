@@ -1,5 +1,9 @@
 package BeastForm::Trigger;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 # ABSTRACT: The useful information we know about a trigger
 
 use Moo;
@@ -27,7 +31,7 @@ BeastForm::Trigger - The useful information we know about a trigger
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

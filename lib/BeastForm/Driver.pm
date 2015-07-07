@@ -1,5 +1,9 @@
 package BeastForm::Driver;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 # ABSTRACT: Represents a DBD. Can make a connector
 
 use Moo;
@@ -42,7 +46,7 @@ BeastForm::Driver - Represents a DBD. Can make a connector
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 

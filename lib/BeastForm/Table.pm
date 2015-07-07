@@ -1,5 +1,9 @@
 package BeastForm::Table;
 
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 # ABSTRACT: The useful information we know about a table
 
 use Moo;
@@ -26,7 +30,7 @@ BeastForm::Table - The useful information we know about a table
 
 =head1 VERSION
 
-version 0.000000
+version 0.000001
 
 =head1 AUTHOR
 
