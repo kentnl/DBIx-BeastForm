@@ -23,7 +23,6 @@ lib/BeastForm/Fieldset.pm
 lib/BeastForm/Key.pm
 lib/BeastForm/Proc.pm
 lib/BeastForm/Reader/SQLT.pm
-lib/BeastForm/Reader/SQLT/Constraint.pm
 lib/BeastForm/Reader/SQLT/Field.pm
 lib/BeastForm/Reader/SQLT/Index.pm
 lib/BeastForm/Reader/SQLT/Proc.pm
@@ -63,7 +62,6 @@ t/00-compile/lib_BeastForm_Field_pm.t
 t/00-compile/lib_BeastForm_Fieldset_pm.t
 t/00-compile/lib_BeastForm_Key_pm.t
 t/00-compile/lib_BeastForm_Proc_pm.t
-t/00-compile/lib_BeastForm_Reader_SQLT_Constraint_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_Field_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_Index_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_Proc_pm.t

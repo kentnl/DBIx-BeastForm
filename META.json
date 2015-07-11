@@ -101,6 +101,8 @@
             "BeastForm::Constraint" : "0",
             "BeastForm::DBIL::Builder::Dynamic" : "0",
             "BeastForm::DBIL::Schema" : "0",
+            "BeastForm::Reader::SQLT::FK" : "0",
+            "BeastForm::Role::Finalizer" : "0",
             "BeastForm::Role::Writer::Schema" : "0",
             "BeastForm::Role::Writer::Table" : "0",
             "Carp" : "0",
@@ -188,10 +190,6 @@
       },
       "BeastForm::Reader::SQLT" : {
          "file" : "lib/BeastForm/Reader/SQLT.pm",
-         "version" : "0.000001"
-      },
-      "BeastForm::Reader::SQLT::Constraint" : {
-         "file" : "lib/BeastForm/Reader/SQLT/Constraint.pm",
          "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::Field" : {
@@ -489,7 +487,6 @@
                      "lib/BeastForm/Key.pm",
                      "lib/BeastForm/Proc.pm",
                      "lib/BeastForm/Reader/SQLT.pm",
-                     "lib/BeastForm/Reader/SQLT/Constraint.pm",
                      "lib/BeastForm/Reader/SQLT/Field.pm",
                      "lib/BeastForm/Reader/SQLT/Index.pm",
                      "lib/BeastForm/Reader/SQLT/Proc.pm",
