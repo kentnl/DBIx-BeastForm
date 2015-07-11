@@ -98,6 +98,7 @@
             "Moo" : "1.000008"
          },
          "requires" : {
+            "BeastForm::Constraint" : "0",
             "BeastForm::Role::Introspective" : "0",
             "BeastForm::Role::Writer::Schema" : "0",
             "BeastForm::Role::Writer::Table" : "0",
@@ -136,6 +137,10 @@
    "provides" : {
       "BeastForm" : {
          "file" : "lib/BeastForm.pm",
+         "version" : "0.000001"
+      },
+      "BeastForm::Check" : {
+         "file" : "lib/BeastForm/Check.pm",
          "version" : "0.000001"
       },
       "BeastForm::DB" : {
@@ -452,6 +457,7 @@
                "Dist::Zilla::Plugin::Test::Compile::PerFile" : {
                   "file" : [
                      "lib/BeastForm.pm",
+                     "lib/BeastForm/Check.pm",
                      "lib/BeastForm/DB.pm",
                      "lib/BeastForm/Driver.pm",
                      "lib/BeastForm/FK.pm",
