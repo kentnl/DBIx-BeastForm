@@ -99,7 +99,6 @@ do { my $x = {
                                       'List::Util' => '0',
                                       'Moo' => '0',
                                       'Moo::Role' => '0',
-                                      'Package::Variant' => '0',
                                       'SQL::Translator' => '0',
                                       'parent' => '0',
                                       'perl' => '5.006',

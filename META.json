@@ -114,7 +114,6 @@
             "List::Util" : "0",
             "Moo" : "0",
             "Moo::Role" : "0",
-            "Package::Variant" : "0",
             "SQL::Translator" : "0",
             "parent" : "0",
             "perl" : "5.006",
@@ -142,24 +141,12 @@
          "file" : "lib/BeastForm.pm",
          "version" : "0.000001"
       },
-      "BeastForm::Awesome" : {
-         "file" : "lib/_attic/Awesome.pm",
-         "version" : "0.000001"
-      },
       "BeastForm::Check" : {
          "file" : "lib/BeastForm/Check.pm",
          "version" : "0.000001"
       },
-      "BeastForm::Col" : {
-         "file" : "lib/_attic/Col.pm",
-         "version" : "0.000001"
-      },
       "BeastForm::DB" : {
          "file" : "lib/BeastForm/DB.pm",
-         "version" : "0.000001"
-      },
-      "BeastForm::DBIL::Table" : {
-         "file" : "lib/_attic/DBIL/Table.pm",
          "version" : "0.000001"
       },
       "BeastForm::Driver" : {
@@ -484,10 +471,7 @@
                      "lib/BeastForm/Util.pm",
                      "lib/BeastForm/View.pm",
                      "lib/BeastForm/Writer/DBIL/Dynamic/Schema.pm",
-                     "lib/BeastForm/Writer/DBIL/Dynamic/Table.pm",
-                     "lib/_attic/Awesome.pm",
-                     "lib/_attic/Col.pm",
-                     "lib/_attic/DBIL/Table.pm"
+                     "lib/BeastForm/Writer/DBIL/Dynamic/Table.pm"
                   ],
                   "path_translator" : "base64_filter",
                   "prefix" : "t/00-compile",

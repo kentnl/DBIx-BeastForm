@@ -22,20 +22,11 @@ provides:
   BeastForm:
     file: lib/BeastForm.pm
     version: '0.000001'
-  BeastForm::Awesome:
-    file: lib/_attic/Awesome.pm
-    version: '0.000001'
   BeastForm::Check:
     file: lib/BeastForm/Check.pm
     version: '0.000001'
-  BeastForm::Col:
-    file: lib/_attic/Col.pm
-    version: '0.000001'
   BeastForm::DB:
     file: lib/BeastForm/DB.pm
-    version: '0.000001'
-  BeastForm::DBIL::Table:
-    file: lib/_attic/DBIL/Table.pm
     version: '0.000001'
   BeastForm::Driver:
     file: lib/BeastForm/Driver.pm
@@ -125,7 +116,6 @@ requires:
   List::Util: '0'
   Moo: '0'
   Moo::Role: '0'
-  Package::Variant: '0'
   SQL::Translator: '0'
   parent: '0'
   perl: '5.006'
