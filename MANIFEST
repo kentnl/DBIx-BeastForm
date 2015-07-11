@@ -26,14 +26,17 @@ lib/BeastForm/Fieldset.pm
 lib/BeastForm/Key.pm
 lib/BeastForm/Proc.pm
 lib/BeastForm/Reader/SQLT.pm
+lib/BeastForm/Reader/SQLT/FK.pm
 lib/BeastForm/Reader/SQLT/Field.pm
 lib/BeastForm/Reader/SQLT/Index.pm
+lib/BeastForm/Reader/SQLT/Key.pm
 lib/BeastForm/Reader/SQLT/Proc.pm
 lib/BeastForm/Reader/SQLT/Schema.pm
 lib/BeastForm/Reader/SQLT/Table.pm
 lib/BeastForm/Reader/SQLT/Trigger.pm
 lib/BeastForm/Reader/SQLT/View.pm
 lib/BeastForm/Role/Awesome.pm
+lib/BeastForm/Role/Finalizer.pm
 lib/BeastForm/Role/Process.pm
 lib/BeastForm/Schema.pm
 lib/BeastForm/Table.pm
@@ -58,8 +61,10 @@ t/00-compile/lib_BeastForm_Field_pm.t
 t/00-compile/lib_BeastForm_Fieldset_pm.t
 t/00-compile/lib_BeastForm_Key_pm.t
 t/00-compile/lib_BeastForm_Proc_pm.t
+t/00-compile/lib_BeastForm_Reader_SQLT_FK_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_Field_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_Index_pm.t
+t/00-compile/lib_BeastForm_Reader_SQLT_Key_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_Proc_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_Schema_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_Table_pm.t
@@ -67,6 +72,7 @@ t/00-compile/lib_BeastForm_Reader_SQLT_Trigger_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_View_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_pm.t
 t/00-compile/lib_BeastForm_Role_Awesome_pm.t
+t/00-compile/lib_BeastForm_Role_Finalizer_pm.t
 t/00-compile/lib_BeastForm_Role_Process_pm.t
 t/00-compile/lib_BeastForm_Schema_pm.t
 t/00-compile/lib_BeastForm_Table_pm.t

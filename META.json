@@ -99,8 +99,6 @@
          },
          "requires" : {
             "BeastForm::Constraint" : "0",
-            "BeastForm::Reader::SQLT::FK" : "0",
-            "BeastForm::Role::Finalizer" : "0",
             "BeastForm::Role::Introspective" : "0",
             "BeastForm::Role::Writer::Schema" : "0",
             "BeastForm::Role::Writer::Table" : "0",
@@ -177,12 +175,20 @@
          "file" : "lib/BeastForm/Reader/SQLT.pm",
          "version" : "0.000001"
       },
+      "BeastForm::Reader::SQLT::FK" : {
+         "file" : "lib/BeastForm/Reader/SQLT/FK.pm",
+         "version" : "0.000001"
+      },
       "BeastForm::Reader::SQLT::Field" : {
          "file" : "lib/BeastForm/Reader/SQLT/Field.pm",
          "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::Index" : {
          "file" : "lib/BeastForm/Reader/SQLT/Index.pm",
+         "version" : "0.000001"
+      },
+      "BeastForm::Reader::SQLT::Key" : {
+         "file" : "lib/BeastForm/Reader/SQLT/Key.pm",
          "version" : "0.000001"
       },
       "BeastForm::Reader::SQLT::Proc" : {
@@ -207,6 +213,10 @@
       },
       "BeastForm::Role::Awesome" : {
          "file" : "lib/BeastForm/Role/Awesome.pm",
+         "version" : "0.000001"
+      },
+      "BeastForm::Role::Finalizer" : {
+         "file" : "lib/BeastForm/Role/Finalizer.pm",
          "version" : "0.000001"
       },
       "BeastForm::Role::Process" : {
@@ -456,14 +466,17 @@
                      "lib/BeastForm/Key.pm",
                      "lib/BeastForm/Proc.pm",
                      "lib/BeastForm/Reader/SQLT.pm",
+                     "lib/BeastForm/Reader/SQLT/FK.pm",
                      "lib/BeastForm/Reader/SQLT/Field.pm",
                      "lib/BeastForm/Reader/SQLT/Index.pm",
+                     "lib/BeastForm/Reader/SQLT/Key.pm",
                      "lib/BeastForm/Reader/SQLT/Proc.pm",
                      "lib/BeastForm/Reader/SQLT/Schema.pm",
                      "lib/BeastForm/Reader/SQLT/Table.pm",
                      "lib/BeastForm/Reader/SQLT/Trigger.pm",
                      "lib/BeastForm/Reader/SQLT/View.pm",
                      "lib/BeastForm/Role/Awesome.pm",
+                     "lib/BeastForm/Role/Finalizer.pm",
                      "lib/BeastForm/Role/Process.pm",
                      "lib/BeastForm/Schema.pm",
                      "lib/BeastForm/Table.pm",
