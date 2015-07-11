@@ -1,4 +1,12 @@
+use 5.006;    # our
+use strict;
+use warnings;
+
 package BeastForm::Reader::SQLT::Key;
+
+our $VERSION = '0.000001';
+
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Moo;
 use BeastForm::Key;
