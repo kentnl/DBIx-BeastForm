@@ -31,10 +31,6 @@ lib/BeastForm/Reader/SQLT/Table.pm
 lib/BeastForm/Reader/SQLT/Trigger.pm
 lib/BeastForm/Reader/SQLT/View.pm
 lib/BeastForm/Role/Awesome.pm
-lib/BeastForm/Role/Connected.pm
-lib/BeastForm/Role/Constraint.pm
-lib/BeastForm/Role/DBIL.pm
-lib/BeastForm/Role/Introspective.pm
 lib/BeastForm/Role/Process.pm
 lib/BeastForm/Schema.pm
 lib/BeastForm/Table.pm
@@ -71,10 +67,6 @@ t/00-compile/lib_BeastForm_Reader_SQLT_Trigger_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_View_pm.t
 t/00-compile/lib_BeastForm_Reader_SQLT_pm.t
 t/00-compile/lib_BeastForm_Role_Awesome_pm.t
-t/00-compile/lib_BeastForm_Role_Connected_pm.t
-t/00-compile/lib_BeastForm_Role_Constraint_pm.t
-t/00-compile/lib_BeastForm_Role_DBIL_pm.t
-t/00-compile/lib_BeastForm_Role_Introspective_pm.t
 t/00-compile/lib_BeastForm_Role_Process_pm.t
 t/00-compile/lib_BeastForm_Schema_pm.t
 t/00-compile/lib_BeastForm_Table_pm.t

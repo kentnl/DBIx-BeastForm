@@ -82,18 +82,6 @@ provides:
   BeastForm::Role::Awesome:
     file: lib/BeastForm/Role/Awesome.pm
     version: '0.000001'
-  BeastForm::Role::Connected:
-    file: lib/BeastForm/Role/Connected.pm
-    version: '0.000001'
-  BeastForm::Role::Constraint:
-    file: lib/BeastForm/Role/Constraint.pm
-    version: '0.000001'
-  BeastForm::Role::DBIL:
-    file: lib/BeastForm/Role/DBIL.pm
-    version: '0.000001'
-  BeastForm::Role::Introspective:
-    file: lib/BeastForm/Role/Introspective.pm
-    version: '0.000001'
   BeastForm::Role::Process:
     file: lib/BeastForm/Role/Process.pm
     version: '0.000001'
@@ -122,16 +110,14 @@ recommends:
   Moo: '1.000008'
 requires:
   BeastForm::Constraint: '0'
-  BeastForm::DBIL::Builder::Dynamic: '0'
-  BeastForm::DBIL::Schema: '0'
   BeastForm::Reader::SQLT::FK: '0'
   BeastForm::Role::Finalizer: '0'
+  BeastForm::Role::Introspective: '0'
   BeastForm::Role::Writer::Schema: '0'
   BeastForm::Role::Writer::Table: '0'
   Carp: '0'
   DBI: '0'
   DBIx::Connector: '0'
-  DBIx::Lite: '0'
   DBIx::Lite::Schema: '0'
   Data::Dumper: '0'
   Exporter: '0'
