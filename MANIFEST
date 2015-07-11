@@ -17,7 +17,6 @@ _attic/DBIL/Table.pm
 dist.ini
 dist.ini.meta
 lib/BeastForm.pm
-lib/BeastForm/Check.pm
 lib/BeastForm/DB.pm
 lib/BeastForm/Driver.pm
 lib/BeastForm/FK.pm
@@ -53,7 +52,6 @@ misc/Changes.deps.opt
 misc/perlcritic.deps
 perlcritic.rc
 sql/test-00.sql
-t/00-compile/lib_BeastForm_Check_pm.t
 t/00-compile/lib_BeastForm_DB_pm.t
 t/00-compile/lib_BeastForm_Driver_pm.t
 t/00-compile/lib_BeastForm_FK_pm.t

@@ -83,7 +83,6 @@ do { my $x = {
                                         'Moo' => '1.000008'
                                       },
                       'requires' => {
-                                      'BeastForm::Constraint' => '0',
                                       'BeastForm::Role::Introspective' => '0',
                                       'BeastForm::Role::Writer::Schema' => '0',
                                       'BeastForm::Role::Writer::Table' => '0',

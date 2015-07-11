@@ -8,7 +8,6 @@ use Test::EOL;
 
 my @files = (
     'lib/BeastForm.pm',
-    'lib/BeastForm/Check.pm',
     'lib/BeastForm/DB.pm',
     'lib/BeastForm/Driver.pm',
     'lib/BeastForm/FK.pm',
@@ -36,7 +35,6 @@ my @files = (
     'lib/BeastForm/View.pm',
     'lib/BeastForm/Writer/DBIL/Dynamic/Schema.pm',
     'lib/BeastForm/Writer/DBIL/Dynamic/Table.pm',
-    't/00-compile/lib_BeastForm_Check_pm.t',
     't/00-compile/lib_BeastForm_DB_pm.t',
     't/00-compile/lib_BeastForm_Driver_pm.t',
     't/00-compile/lib_BeastForm_FK_pm.t',
